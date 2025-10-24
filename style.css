@@ -87,7 +87,7 @@ div {
   background-color: red;
   position: relative;
   animation-name: myAnimation;
-  animation-duration: 4s;
+  animation-duration: 8s;
   animation-iteration-count: infinite;
 }
 
