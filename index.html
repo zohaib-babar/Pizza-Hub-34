@@ -1,50 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Pizza Hub 34</title>
-  <link rel="stylesheet" href="style.css" />
-  
-</head>
-<body>
-  <nav>
-    <h2 class="logo">MyBrand</h2>
-    <ul class="menu">
-      <li>Home</li>
-      <li>About</li>
-      <li>Services</li>
-      <li>Contact</li>
-    </ul>
-  </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pizza Hub 34</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav>
+      <h2 class="logo">MyBrand</h2>
+      <ul class="menu">
+        <li>Home</li>
+        <li>About</li>
+        <li>Services</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
 
-  <section class="hero">
-    <h1 class="hero-title">Welcome to My Pizza Hub Page</h1>
-    <p class="hero-text">My pizza is a very dilicius and tasty.</p>
-    <button class="hero-btn">Get Started</button>
-  </section>
+    <section class="hero">
+      <h1 class="hero-title">Welcome to My Pizza Hub Page</h1>
+      <p class="hero-text">My pizza is a very dilicius and tasty.</p>
+      <button class="hero-btn">Get Started</button>
+    </section>
 
-  <div class="boxs">
-    <div class="box1">malai boti pizza</div>
-    <div class="box2">salami red onion pizza</div>
-    <div class="box3">classic cheez pizza</div>
-    <div class="box4">Dilicius pizza</div>
-  </div>
+    <div class="boxs">
+      <div class="box1">malai boti pizza</div>
+      <div class="box2">salami red onion pizza</div>
+      <div class="box3">classic cheez pizza</div>
+      <div class="box4">Dilicius pizza</div>
+    </div>
 
-  <div class="boxs">
-    <div class="box1">malai boti pizza</div>
-    <div class="box2">salami red onion pizza</div>
-    <div class="box3">classic cheez pizza</div>
-    <div class="box4">Dilicius pizza</div>
-  </div>
+    <div class="boxs">
+      <div class="box1">malai boti pizza</div>
+      <div class="box2">salami red onion pizza</div>
+      <div class="box3">classic cheez pizza</div>
+      <div class="box4">Dilicius pizza</div>
+    </div>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
-  <script>
-    gsap.from("nav", { duration: 1, y: -50, opacity: 0 });
-    gsap.from(".hero-title", { duration: 1, y: 50, opacity: 0, delay: 0.3 });
-    gsap.from(".hero-text", { duration: 3, y: 50, opacity: 0, delay: 0.6 });
-    gsap.from(".hero-btn", { duration: 2, scale: 0, opacity: 0, delay: 0.9 });
-    gsap.from(".boxs", { duration: 3, scale: 0, opacity: 0, delay: 0.9 });
-  </script>
-</body>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-section">
+          <h3>About Us</h3>
+          <p>We provide quality content and services to help you grow.</p>
+        </div>
+
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-section">
+          <h3>Follow Us</h3>
+          <div class="social">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">YouTube</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2025 YourWebsite. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script>
+      gsap.from("nav", { duration: 1, y: -50, opacity: 0 });
+      gsap.from(".hero-title", { duration: 1, y: 50, opacity: 0, delay: 0.3 });
+      gsap.from(".hero-text", { duration: 3, y: 50, opacity: 0, delay: 0.6 });
+      gsap.from(".hero-btn", { duration: 2, scale: 0, opacity: 0, delay: 0.9 });
+      gsap.from(".boxs", { duration: 3, scale: 0, opacity: 0, delay: 0.9 });
+    </script>
+  </body>
 </html>
