@@ -90,4 +90,13 @@ nav .menu {
   display: flex;
   border-radius: 10px;
 }
-
+.box4 {
+  height: 350px;
+  width: 300px;
+  text-align: center;
+  justify-content: center;
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjbYYdMUXQblgQnb2bF9CGVmtHweN9OSkwDJb72uehcn3DuoQ0bwAj30eosoEjxztlxmw&usqp=CAU);
+  background-position: center;
+  display: flex;
+  border-radius: 10px;
+}
