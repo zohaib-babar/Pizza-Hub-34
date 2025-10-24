@@ -53,31 +53,41 @@ nav .menu {
 
 .boxs {
   display: flex;
-  margin-top: 50px;
+  
+  padding: 50px;
   text-align: center;
   align-items: center;
+  gap: 30px;
   justify-content: center;
 }
 .box1 {
-  height: 200px;
-  width: 200px;
+  height: 400px;
+  width: 300px;
   text-align: center;
   justify-content: center;
-  
+  background-position: center;
+  border-radius: 10px;
+  display: flex;
   background-image: url(https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGl6emF8ZW58MHx8MHx8fDA%3D&fm=jpg&q=60&w=3000);
 }
 .box2 {
-  height: 200px;
-  width: 200px;
+  height: 400px;
+  width: 300px;
   text-align: center;
+  justify-content: center;
+  background-position: center;
+  border-radius: 10px;
+  display: flex;
   background-image: url(https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGl6emF8ZW58MHx8MHx8fDA%3D&fm=jpg&q=60&w=3000);
 }
 .box3 {
-  height: 200px;
-  width: 200px;
+  height: 400px;
+  width: 300px;
   text-align: center;
+  justify-content: center;
   background-image: url(https://images.unsplash.com/photo-1604382354936-07c5d9983bd3?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cGl6emF8ZW58MHx8MHx8fDA%3D&fm=jpg&q=60&w=3000);
   background-position: center;
-  border-radius: 5px;
+  display: flex;
+  border-radius: 10px;
 }
 
